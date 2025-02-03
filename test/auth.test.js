@@ -2,7 +2,7 @@ import chai from 'chai';
 import chaiHttp from 'chai-http';
 import readlineSync from 'readline-sync';
 import app from '../src/server.js'; // Asegúrate de que la ruta sea correcta
-import User from '../src/models/user.model.js';
+import User from '../src/dao/models/user.model.js';
 
 const { expect } = chai;
 chai.use(chaiHttp);
